@@ -87,7 +87,7 @@ void STM_EVAL_COMInit(COM_TypeDef COM, USART_InitTypeDef* USART_InitStruct)
 	if (COM == COM1)
   {
     /* Enable UART clock */
- //   RCC_APB1PeriphClockCmd(COM_USART_CLK[COM], ENABLE);
+//    RCC_APB1PeriphClockCmd(COM_USART_CLK[COM], ENABLE);
 		RCC_APB2PeriphClockCmd(COM_USART_CLK[COM], ENABLE);
 		
   }
