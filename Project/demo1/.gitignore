@@ -1,0 +1,15 @@
+*.o
+*.bak
+*.htm
+*.html
+*.d
+*.axf
+*.log
+*.txt
+*.crf
+*.doc
+JLinkLog.txt
+JLinkSettings.ini
+output/
+list/
+MDK-ARM/
