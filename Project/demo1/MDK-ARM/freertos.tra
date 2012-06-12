@@ -1,0 +1,46 @@
+*** Creating Trace Output File 'freertos.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f2xx.o"'
+### List of Objects: adding '".\startup_stm32f2xx.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f2xx_dma.o"'
+### List of Objects: adding '"stm32f2xx_exti.o"'
+### List of Objects: adding '"stm32f2xx_flash.o"'
+### List of Objects: adding '"stm32f2xx_fsmc.o"'
+### List of Objects: adding '"stm32f2xx_gpio.o"'
+### List of Objects: adding '"stm32f2xx_i2c.o"'
+### List of Objects: adding '"stm32f2xx_iwdg.o"'
+### List of Objects: adding '"stm32f2xx_pwr.o"'
+### List of Objects: adding '"stm32f2xx_rcc.o"'
+### List of Objects: adding '"stm32f2xx_rng.o"'
+### List of Objects: adding '"stm32f2xx_rtc.o"'
+### List of Objects: adding '"stm32f2xx_spi.o"'
+### List of Objects: adding '"stm32f2xx_syscfg.o"'
+### List of Objects: adding '"stm32f2xx_tim.o"'
+### List of Objects: adding '"stm32f2xx_usart.o"'
+### List of Objects: adding '"stm32f2xx_wwdg.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"heap_2.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"serial_debug.o"'
+### List of Objects: adding '"stm32f2xx_it.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "core_cm3.o" "system_stm32f2xx.o" ".\startup_stm32f2xx.o" "misc.o" "stm32f2xx_dma.o" "stm32f2xx_exti.o" "stm32f2xx_flash.o" "stm32f2xx_fsmc.o" "stm32f2xx_gpio.o" "stm32f2xx_i2c.o" "stm32f2xx_iwdg.o" "stm32f2xx_pwr.o" "stm32f2xx_rcc.o" "stm32f2xx_rng.o" "stm32f2xx_rtc.o" "stm32f2xx_spi.o" "stm32f2xx_syscfg.o" "stm32f2xx_tim.o" "stm32f2xx_usart.o" "stm32f2xx_wwdg.o" "list.o" "queue.o" "tasks.o" "port.o" "heap_2.o" "main.o" "serial_debug.o" "stm32f2xx_it.o" --library_type=microlib --strict --scatter "freertos.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\freertos.map" -o "freertos.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'freertos.axf'
+### ADS-LD Command File: 'freertos.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'freertos.lnp', Handle=0x000002D4
+### Writing '.lnp' file
+### ADS-LD Command file 'freertos.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
